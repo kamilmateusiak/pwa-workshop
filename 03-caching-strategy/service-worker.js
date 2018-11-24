@@ -1,5 +1,5 @@
 const CACHE = "strategy-example";
-const AWAIT_TIME = 1000;
+const AWAIT_TIME = 5000;
 
 const precache = () => caches.open(CACHE).then(cache => cache.addAll(["/"]));
 
